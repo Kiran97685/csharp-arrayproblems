@@ -7,5 +7,7 @@ class Program
         SumOfNum.CalculateSum();
         ArrayCalculator.CalculateSumAndAverage();
         ArrayReverse.PrintReverse();
+        EvenOddNumbers evenOdd = new EvenOddNumbers();
+        evenOdd.CountEvenOdd();
     }
 }
