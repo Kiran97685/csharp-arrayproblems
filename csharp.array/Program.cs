@@ -9,7 +9,9 @@ class Program
         //ArrayReverse.PrintReverse();
         //EvenOddNumbers evenOdd = new EvenOddNumbers();
         //evenOdd.CountEvenOdd();
-        DuplicateFinder finder = new DuplicateFinder();
-        finder.FindDuplicates();
+        //DuplicateFinder finder = new DuplicateFinder();
+        //finder.FindDuplicates();
+        ArrayOperations ops = new ArrayOperations();
+        ops.ManageArray();
     }
 }
