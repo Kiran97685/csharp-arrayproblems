@@ -11,7 +11,9 @@ class Program
         //evenOdd.CountEvenOdd();
         //DuplicateFinder finder = new DuplicateFinder();
         //finder.FindDuplicates();
-        ArrayOperations ops = new ArrayOperations();
-        ops.ManageArray();
+        //ArrayOperations ops = new ArrayOperations();
+        //ops.ManageArray();
+        DynamicArray dynamicArray = new DynamicArray();
+        dynamicArray.InsertAtFirstPosition();
     }
 }
