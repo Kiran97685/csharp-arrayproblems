@@ -15,5 +15,7 @@ class Program
         //ops.ManageArray();
         DynamicArray dynamicArray = new DynamicArray();
         dynamicArray.InsertAtFirstPosition();
+        MergeArrays obj = new MergeArrays();
+        obj.MergeTwoArrays();
     }
 }
