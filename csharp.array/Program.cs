@@ -13,9 +13,11 @@ class Program
         //finder.FindDuplicates();
         //ArrayOperations ops = new ArrayOperations();
         //ops.ManageArray();
-        DynamicArray dynamicArray = new DynamicArray();
+        /*DynamicArray dynamicArray = new DynamicArray();
         dynamicArray.InsertAtFirstPosition();
         MergeArrays obj = new MergeArrays();
-        obj.MergeTwoArrays();
+        obj.MergeTwoArrays();*/
+        MissingNumber obj = new MissingNumber();
+        obj.FindMissingNumber();
     }
 }

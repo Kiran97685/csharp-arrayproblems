@@ -27,7 +27,7 @@ namespace csharp.arrays
             int newElement = Convert.ToInt32(Console.ReadLine());
 
             for (int i = n; i > pos; i--)
-                numbers[i] = numbers[i - 1];
+            numbers[i] = numbers[i - 1];
             numbers[pos] = newElement;
             n++;
 
