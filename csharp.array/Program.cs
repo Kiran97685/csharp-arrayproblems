@@ -17,7 +17,9 @@ class Program
         dynamicArray.InsertAtFirstPosition();
         MergeArrays obj = new MergeArrays();
         obj.MergeTwoArrays();*/
-        MissingNumber obj = new MissingNumber();
-        obj.FindMissingNumber();
+        //MissingNumber obj = new MissingNumber();
+        //obj.FindMissingNumber();
+        ArrayOperations arrayOps = new ArrayOperations();
+        arrayOps.DeleteNumberAndPrint();
     }
 }
