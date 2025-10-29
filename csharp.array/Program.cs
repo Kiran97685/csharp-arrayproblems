@@ -19,7 +19,11 @@ class Program
         obj.MergeTwoArrays();*/
         //MissingNumber obj = new MissingNumber();
         //obj.FindMissingNumber();
-        ArrayOperations arrayOps = new ArrayOperations();
-        arrayOps.DeleteNumberAndPrint();
+        //ArrayOperations arrayOps = new ArrayOperations();
+        //arrayOps.DeleteNumberAndPrint();
+        ReverseArray obj = new ReverseArray();
+        //obj.Reverse();
+        obj.Reverse2();
+        Console.ReadLine();
     }
 }
