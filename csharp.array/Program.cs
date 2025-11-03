@@ -1,4 +1,5 @@
 ﻿using csharp.arrays;
+using CSharpCodingChallenge;
 
 class Program
 {
@@ -21,9 +22,11 @@ class Program
         //obj.FindMissingNumber();
         //ArrayOperations arrayOps = new ArrayOperations();
         //arrayOps.DeleteNumberAndPrint();
-        ReverseArray obj = new ReverseArray();
+        //ReverseArray obj = new ReverseArray();
         //obj.Reverse();
-        obj.Reverse2();
-        Console.ReadLine();
+        //obj.Reverse2();
+        //Console.ReadLine();
+        DuplicateCharacters obj = new DuplicateCharacters();
+        obj.FindDuplicateCharacters();
     }
 }
