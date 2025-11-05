@@ -1,4 +1,5 @@
-﻿using csharp.arrays;
+﻿using ConsoleApp;
+using csharp.arrays;
 using CSharpCodingChallenge;
 
 class Program
@@ -26,7 +27,16 @@ class Program
         //obj.Reverse();
         //obj.Reverse2();
         //Console.ReadLine();
-        DuplicateCharacters obj = new DuplicateCharacters();
-        obj.FindDuplicateCharacters();
+        //DuplicateCharacters obj = new DuplicateCharacters();
+        //obj.FindDuplicateCharacters();
+
+        /*Read Text File and Display Employee Records*/
+
+        string filePath = "C:\\Users\\Kurella Kiran\\OneDrive\\Desktop\\StudentData.txt";   // Update path if needed
+        //EmployeeReader reader = new EmployeeReader();
+
+        EmployeeReader.ReadFile(filePath);
+
+        Console.ReadLine();
     }
 }
