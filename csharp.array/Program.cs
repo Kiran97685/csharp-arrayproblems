@@ -1,4 +1,5 @@
 ﻿using ConsoleApp;
+using csharp;
 using csharp.arrays;
 using CSharpCodingChallenge;
 
@@ -32,11 +33,17 @@ class Program
 
         /*Read Text File and Display Employee Records*/
 
-        string filePath = "C:\\Users\\Kurella Kiran\\OneDrive\\Desktop\\StudentData.txt";   // Update path if needed
+        /*string filePath = "C:\\Users\\Kurella Kiran\\OneDrive\\Desktop\\StudentData.txt";   // Update path if needed
         //EmployeeReader reader = new EmployeeReader();
 
         EmployeeReader.ReadFile(filePath);
 
-        Console.ReadLine();
+        Console.ReadLine();*/
+
+        string filePath = "C:\\Users\\Kurella Kiran\\OneDrive\\Desktop\\StudentData.json"; // JSON file path
+        EmployeeRecordJSONFormat manager = new EmployeeRecordJSONFormat(filePath);
+
+        // Call single method to read and display employees
+        manager.DisplayEmployeesFromFile();
     }
 }
